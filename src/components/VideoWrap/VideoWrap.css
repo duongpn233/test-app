@@ -1,0 +1,168 @@
+.video {
+    padding: 150px 0;
+    position: relative;
+}
+
+.video-header {
+    max-width: 682px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-header-title {
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    text-align: center;
+    color: #110e03;
+    margin-bottom: 30px;
+}
+
+.video-header-text {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #110e03;
+}
+
+.video-header-btn {
+    display: inline-block;
+    border: 3px solid #020001;
+    background: transparent;
+    padding: 16px 32px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.video-img {
+    margin: auto;
+    width: 70%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.video-obj1 {
+    position: absolute;
+    width: 26%;
+    left: -14%;
+    top: 32%
+}
+
+.video-obj2 {
+    position: absolute;
+    width: 8%;
+    left: 9%;
+    bottom: 6%;
+    z-index: 1;
+}
+
+.video-obj3 {
+    position: absolute;
+    width: 8%;
+    left: 11%;
+    top: 0%;
+    z-index: 0;
+}
+
+.video-obj4 {
+    position: absolute;
+    width: 22%;
+    left: 15.8%;
+    bottom: -4%;
+    z-index: 1;
+}
+
+.video-obj5 {
+    position: absolute;
+    bottom: 2%;
+    right: 32%;
+}
+
+.video-obj6 {
+    position: absolute;
+    width: 30%;
+    right: -12%;
+    bottom: 2%;
+    z-index: 1;
+}
+
+.video-obj7 {
+    position: absolute;
+    width: 18%;
+    right: -9%;
+    bottom: 25%;
+    z-index: 0;
+}
+
+.video-obj8 {
+    position: absolute;
+    width: 6%;
+    right: 12%;
+    top: 18%;
+    z-index: 1;
+}
+
+.video-obj9 {
+    position: absolute;
+    width: 8%;
+    right: 6%;
+    top: 12%;
+    z-index: 0;
+}
+
+@media (max-width: 1024px) {
+
+    .video-obj1,
+    .video-obj2,
+    .video-obj3,
+    .video-obj4,
+    .video-obj5,
+    .video-obj6,
+    .video-obj7,
+    .video-obj8,
+    .video-obj9 {
+        display: none;
+    }
+
+    .video {
+        padding: 60px 0;
+    }
+
+    .video-header {
+        max-width: 100%;
+        padding: 0 12px;
+    }
+
+    .video-header-title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    .video-header-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .video-header-btn {
+        padding: 4px 8px;
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .video-img {
+        width: 100%;
+    }
+}

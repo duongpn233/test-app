@@ -1,0 +1,202 @@
+.issue {
+    background-color: #fccb05;
+    padding: 150px 0;
+    position: relative;
+}
+
+.issue-obj1
+{
+    position: absolute;
+    width: 8%;
+    top: 16%;
+    right: 6%;
+}
+.issue-obj2
+{
+    position: absolute;
+    width: 6%;
+    top: 4%;
+    right: 6%;
+}
+.issue-header {
+    max-width: 682px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.issue-header-title {
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    text-align: center;
+    color: #110e03;
+    margin-bottom: 30px;
+}
+
+.issue-header-text {
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #110e03;
+}
+
+.issue-header-btn {
+    display: inline-block;
+    border: 3px solid #020001;
+    background: transparent;
+    padding: 16px 32px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.issue-banner {
+    background-color: #ff5500;
+    border: solid 3px #111111;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 42px;
+}
+
+.issue-banner-title {
+    font-size: 55px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    text-align: center;
+    color: #110e03;
+    margin-bottom: 24px;
+}
+
+.issue-banner-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.issue-banner-icon {
+    position: absolute;
+    width: 44%;
+    right: -4%;
+    bottom: -18%;
+    z-index: 1;
+}
+
+.issue-item {
+    position: relative;
+}
+
+.issue-item-brand {
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    padding: 4px 0 0px;
+}
+
+.orange .issue-item-brand {
+    background-color: #ff5500;
+}
+
+.issue-item-img {
+    padding-top: 104%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.issue-item-icon-hot {
+    width: 35%;
+    position: absolute;
+    top: -8%;
+    left: 3%;
+    display: none;
+}
+
+.issue-item-icon-lol {
+    width: 35%;
+    position: absolute;
+    bottom: -12%;
+    left: -26%;
+    display: none;
+}
+
+.hot .issue-item-icon-hot {
+    display: block;
+}
+
+.icon .issue-item-icon-lol {
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .issue {
+        padding: 60px 0;
+    }
+
+    .issue-header {
+        max-width: 100%;
+        padding: 0 12px;
+    }
+
+    .issue-header-title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    .issue-header-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .issue-header-btn {
+        padding: 4px 8px;
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .col.m-6.mb,
+    .col.c-12.mb {
+        display: none;
+    }
+
+    .issue-banner {
+        display: none;
+    }
+
+    .issue-item {
+        padding: 6px;
+    }
+
+    .issue-item-icon-hot {
+        width: 23%;
+        top: -4%;
+        left: 2%;
+        display: none;
+    }
+
+    .issue-item-icon-lol {
+        width: 18%;
+        bottom: -4%;
+        left: 2%;
+        display: none;
+    }
+}

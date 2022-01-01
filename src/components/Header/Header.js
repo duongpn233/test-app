@@ -4,7 +4,7 @@ function Header() {
         <div className='header'>
             <div className='header-group'>
                 <div className='header-logo'>
-                    <img className='header-logo-img' src='/img/logo.png' alt=''></img>
+                    <img className='header-logo-img' src='/test-app/img/logo.png' alt=''></img>
                 </div>
                 <label className='header-btn-mb' htmlFor='header-check-nav'>
                     <i className="fas fa-bars"></i>

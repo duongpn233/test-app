@@ -2,7 +2,7 @@ import './Introduction.css';
 function Introduction() {
     return (
         <div className='introduction'>
-            <div className='introduction-background' style={{ backgroundImage: 'url(/img/introduction.png)' }}>
+            <div className='introduction-background' style={{ backgroundImage: 'url(/test-app/img/introduction.png)' }}>
                 <div className='introduction-content'>
                     <h1 className='introduction-content-title'>WHAT HAPPENED!</h1>
                     <p className='introduction-content-text'>

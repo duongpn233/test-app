@@ -57,9 +57,9 @@ function Footer() {
                 <div className='footer-info'>
                     <div className='footer-info-text'>© 2020-2021 what happened corp <span>l (주) 왓헤픈 ｜ 대표자 : 홍길동 ｜ 사업자 등록번호</span> : 356-00-00000 ㅣ test0101@what happened.co.kr <span>서울특별시 강남구 도산대로 8길 17 </span>｜ FAX : 070-0000-0000 <span>l 서비스 이용약관 l 개인정보처리방침</span></div>
                     <div className='footer-icon'>
-                        <img className='footer-icon-img' src='/img/footer-icon1.png' alt=''></img>
-                        <img className='footer-icon-img' src='/img/footer-icon2.png' alt=''></img>
-                        <img className='footer-icon-img' src='/img/footer-icon3.png' alt=''></img>
+                        <img className='footer-icon-img' src='/test-app/img/footer-icon1.png' alt=''></img>
+                        <img className='footer-icon-img' src='/test-app/img/footer-icon2.png' alt=''></img>
+                        <img className='footer-icon-img' src='/test-app/img/footer-icon3.png' alt=''></img>
                     </div>
                 </div>
             </div>
